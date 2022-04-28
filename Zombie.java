@@ -5,10 +5,6 @@ public class Zombie {
     private int añoNacimiento;
     private String tipoSangre;
 
-    public Zombie(String nombre) {
-        this.nombre = nombre;
-    }
-
     public Zombie(String nombre, double salud, int año, String sangre){
         this.nombre = nombre;
         this.salud = salud;
