@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class Ubicacion{
 
     private String nombre;
-    float distancia;
+    private float distancia;
     private int zombies;
 
     public Ubicacion(String nombre, float distancia, int zombies){
